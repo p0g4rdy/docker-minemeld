@@ -1,4 +1,4 @@
-FROM paloaltonetworks/minemeld
+FROM p0g4rdy/minemeld-base:develop
 
 COPY ./minemeld-web /etc/nginx/sites-enabled/
 
